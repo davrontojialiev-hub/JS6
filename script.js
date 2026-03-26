@@ -13,40 +13,6 @@ console.log(evenCount);
 console.log(oddCount);
 
 
-// let words = [];
-// for (let i = 0; i < 1000; i++) {
-//     let input = prompt("Введите команду:");
-
-//     if (input === "stop") {
-//         break;
-//     }
-
-//       let parts = input.split(", ");
-//     let command = parts[0];
-//     let word = parts[1];
-
-//     if (input.startsWith("add, ")) {
-//         let word = input.slice(5);
-//         words.push(word);
-//         console.log(words);
-//     } 
-//     else if (input.startsWith("del, ")) {
-//         let word = input.slice(5); 
-//         let index = words.indexOf(word);
-//         if (index !== -1) {
-//             words.splice(index, 1);
-//         }
-//         console.log(words);
-//     } 
-//     else {
-//         console.log("unknown command");
-//     }
-// }
-// console.log(words); 
-
-
-
-
 
 let names = []
 while (true) {
